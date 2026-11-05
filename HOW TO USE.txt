@@ -1,0 +1,12 @@
+How to Install:
+==========================================================================================================
+1) make sure python is installed
+2) in cmd navigate to Schcat folder.
+3) run the command "pip install -r requirements.txt"
+	if all modules installed properly fine
+	if not, just run "python Guimain2.py", and install what ever the modules come saying missing in error log.
+HOW TO START:
+==========================================================================================================
+4) after installing all modules, run "python Guimain2.py".. it will launch gui.
+5) after GUI starts, start node server by clicking the orange button on top, otherwise charts wont work.
+6) then click fetch stocks.. then all stocks will come.
