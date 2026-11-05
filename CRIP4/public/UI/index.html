@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #tvchart{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            background-color: #161A25;
+        }
+        #ohlc{
+            font-weight: bold;
+        }
+        .green{
+            color: green;
+        }
+        .red{
+            color: red;
+        }
+        #rsi{
+            color: purple;
+            z-index: 10;
+            position: absolute;
+            top: 1.5rem;
+            left: 0.75rem;
+        }
+        div.tvchart {
+            outline: 2px dashed blue;
+        }
+        #tvchart {
+        margin: 20px 20px 20px 20px;
+        }
+        .search-input {
+        padding: 0.5em;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px 0 0 5px;
+        border: 2px solid #ff5733; /* add vibrant border color */
+        }
+
+        .search-button {
+        padding: 0.5em;
+        font-size: 1em;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        background-color: #ff5733; /* add vibrant background color */
+        color: #fff; /* add color to text */
+        }
+
+        .search-button:hover {
+        background-color: #ffc107; /* change hover color */
+        cursor: pointer;
+        }
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Indicators</title>
+</head>
+<body>
+    <nav>
+        <form id="stockform">
+          <input id="stock" type="text" placeholder="Search..." class="search-input">
+          <button type="submit" class="search-button">Submit</button>
+        </form>
+      </nav>
+
+    <div id="tvchart" style="width:95%; height:650px; border:1px solid black; float:left"></div>
+</body>
+<script src="tv.js"></script>
+<script src="index.js"></script>
+</html>

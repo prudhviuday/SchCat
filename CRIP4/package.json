@@ -1,0 +1,30 @@
+{
+  "name": "crip3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon -L app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "candlestick-convert": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fast-technical-indicators": "^1.1.4",
+    "financialmodelingprep": "^1.1.0",
+    "got": "^11.8.6",
+    "investing-com-api": "^4.3.0",
+    "nodemon": "^2.0.20",
+    "parse-url": "^8.1.0",
+    "request": "^2.88.2",
+    "url": "^0.10.2",
+    "url-parse": "^1.5.10",
+    "url-parse-lax": "^5.0.0",
+    "yahoo-finance": "^0.3.7"
+  }
+}
